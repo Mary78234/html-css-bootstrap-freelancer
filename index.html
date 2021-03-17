@@ -4,6 +4,7 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -15,12 +16,20 @@
   <header>
 
     <!-- section nav -->
-    <section id="section-nav">
+    <section id="section-nav" class="qw-container">
       <div class="container debug">
-        <div class="row debug">
-          <div class="col-xs-10 col-sm-6 col-md-4 debug">logo</div>
-          <div class="hidden-xs col-sm-6 col-md-4 col-md-offset-4 debug">menu</div>
-          <div class="col-xs-2 visible-xs debug">nav</div>
+        <div class="row text-uppercase debug">
+          <div class="col-xs-10 col-sm-6 col-md-4 debug">
+            <h4>start bootstrap</h4>
+          </div>
+          <div class="hidden-xs col-sm-6 col-md-4 col-md-offset-4 text-right debug">
+            <ul class="list-unstyled list-inline">
+              <li>portfolio</li>
+              <li>about</li>
+              <li>contact</li>
+            </ul>
+          </div>
+          <div class="col-xs-2 visible-xs debug"><a href="#" class="btn qw-btn-nav"><i class="fas fa-bars"></i></a></div>
         </div>
       </div>
     </section>
@@ -29,8 +38,13 @@
     <!-- section banner -->
     <section id="section-banner">
       <div class="container debug">
-        <div class="row debug">
-          <div class="col-xs-12 debug">lorem</div>
+        <div class="row debug text-uppercase text-center">
+          <div class="col-xs-12 debug">
+            <img class="qw-img center-block" src="img/avatar.svg" alt="avatar">
+            <h1>start bootstrap</h1>
+            <i class="fas fa-star"></i>
+            <h4>graphic artist - web designer - illustrator</h4>
+          </div>
         </div>
       </div>
     </section>
@@ -45,16 +59,31 @@
     <!-- section portfolio -->
     <section id="section-portfolio">
       <div class="container debug">
-        <div class="row debug">
-          <div class="col-xs-12 debug">main</div>
+        <div class="row debug text-uppercase text-center">
+          <div class="col-xs-12 debug">
+            <h3>portfolio</h3>
+            <i class="fas fa-star"></i>
+          </div>
         </div>
         <div class="row debug">
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 debug">foto</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/cabin.png" alt="cabin">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/cake.png" alt="cake">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/circus.png" alt="circus">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/game.png" alt="game">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/safe.png" alt="safe">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4 debug">
+            <img class="qw-img center-block" src="img/submarine.png" alt="submarine">
+          </div>
         </div>
       </div>
     </section>
@@ -64,10 +93,17 @@
     <section id="section-about">
       <div class="container qw-wrapper debug">
         <div class="row debug">
-          <div class="col-xs-12 debug">about</div>
-          <div class="col-xs-12 col-sm-6 debug">testo</div>
-          <div class="col-xs-12 col-sm-6 debug">testo</div>
-          <div class="col-xs-12 debug">bottone</div>
+          <div class="col-xs-12 text-uppercase text-center debug">
+            <h3>about</h3>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="col-xs-12 col-sm-6 debug">
+            <p>Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 debug">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is teh perfect starting point!</p>
+          </div>
+          <div class="col-xs-12 text-center debug"><button><i class="fas fa-download"></i>Download</button></div>
         </div>
       </div>
     </section>
@@ -76,11 +112,26 @@
     <!-- section contact -->
     <section id="section-contact">
       <div class="container qw-wrapper debug">
+
         <div class="row debug">
-          <div class="col-xs-12 debug">contact</div>
-          <div class="col-xs-12 debug">form</div>
-          <div class="col-xs-12 debug">bottone</div>
+          <div class="col-xs-12 text-uppercase text-center debug">
+            <h3>contact me</h3>
+            <i class="fas fa-star"></i>
+          </div>
+          
+          <div class="col-xs-12 debug">
+            <div class="row">
+              <div class="col-xs-12 debug"><span>Name</span></div>
+              <div class="col-xs-12 debug"><span>Email Address</span></div>
+              <div class="col-xs-12 debug"><span>Phone Number</span></div>
+              <div class="col-xs-12 debug"><span>Message</span></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 text-center debug"><button>Send</button></div>
+
         </div>
+
       </div>
     </section>
     <!-- /section contact -->
@@ -94,14 +145,33 @@
     <!-- section footer -->
     <section id="section-footer">
       <div class="container debug">
-        <div class="row debug">
-          <div class="col-xs-12 col-md-4 debug">location</div>
-          <div class="col-xs-12 col-md-4 debug">web</div>
-          <div class="col-xs-12 col-md-4 debug">testo</div>
+
+        <div class="row text-center debug">
+          <div class="col-xs-12 col-md-4 debug">
+            <h5 class="text-uppercase">location</h5>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="col-xs-12 col-md-4 debug">
+            <h5 class="text-uppercase">Around the web</h5>
+            <p>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-4 debug">
+            <h5 class="text-uppercase">About freelancer</h5>
+            <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+          </div>
         </div>
-        <div class="row debug">
-          <div class="col-xs-12 debug">copywright</div>
+
+        <div class="row text-center debug">
+          <div class="col-xs-12 debug">
+            <p>Copywright <i class="far fa-copyright"></i> Your Website 2019</p>
+          </div>
         </div>
+
       </div>
     </section>
     <!-- /section footer -->
