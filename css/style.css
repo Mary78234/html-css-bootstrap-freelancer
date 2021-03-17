@@ -9,7 +9,18 @@ img.qw-img{
   border-radius: 10px;
 }
 
-header, #section-about, #section-footer{
+.container.qw-wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+.btn.qw-btn-nav{
+  background-color: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#section-nav, #section-banner, #section-about, #section-footer{
   color: white;
 }
 
@@ -24,29 +35,19 @@ header, #section-about, #section-footer{
   background-color: #19BC9D;
 }
 
-/* #section-nav,#section-banner, */#section-portfolio, #section-contact, #section-footer{
-  width: 100%;
+#section-portfolio, #section-contact, #section-footer{
   min-height: 200px;
   border: 1px solid red;
   background-color: rgba(240, 128, 128, 0.2);
 }
 
-#section-footer .row:first-of-type{
+#section-footer-1{
   background-color: #3A556D;
 }
 
-#section-footer .row:last-of-type{
+#section-footer-2{
   background-color: #2C3F51;
 }
 
-.container.qw-wrapper{
-  width: 80%;
-  margin: auto;
-}
 
-.btn.qw-btn-nav{
-  background-color: none;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
 
