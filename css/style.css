@@ -1,0 +1,29 @@
+.debug{
+  background-color: rgba(240, 128, 128, 0.2);
+  min-height: 25px;
+  border: 1px solid red;
+}
+
+/* #section-nav{
+  height: 80px;
+  background-color: #2C3F51;
+}
+
+#section-banner{
+  width: 100%;
+  min-height: 400px;
+  background-color: #19BC9D;
+} */
+
+#section-nav,#section-banner,#section-portfolio, #section-about, #section-contact, #section-footer{
+  width: 100%;
+  height: 200px;
+  border: 1px solid red;
+  background-color: rgba(240, 128, 128, 0.2);
+}
+
+.container.qw-wrapper{
+  width: 80%;
+  margin: auto;
+}
+
