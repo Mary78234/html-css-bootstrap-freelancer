@@ -67,6 +67,10 @@
   background-color: #3A556D;
 }
 
+a.qw-text-white:hover{
+  color: #19BC9D;
+}
+
 /* header */
 img.qw-img-banner{
   height: 300px;
@@ -99,6 +103,11 @@ img.qw-img-banner{
 
 .btn.qw-btn-green{
   border: 1px solid white;
+}
+
+.btn.qw-btn-green:hover{
+  color: white;
+  font-weight: 600;
 }
 
 /* header navbar */
